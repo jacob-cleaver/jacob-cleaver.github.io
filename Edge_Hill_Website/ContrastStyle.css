@@ -1,0 +1,628 @@
+/*Home Page*/
+.background {
+	background-color: #D3D3D3;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.header {
+	height: 120px;
+	background-color: #FFFFFF;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	color: #FFFFFF;
+	font-size: 50px;
+	text-align: left;
+	text-indent: 10px;
+	vertical-align: middle;
+	background-image: linear-gradient(180deg,rgba(0,0,0,1.00) 0%,rgba(68,68,68,1.00) 100%);
+	line-height: 2.3;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-top: -10px;
+	padding-left: 10px;
+}
+
+.crest {
+	float: left;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+.main {
+	padding-top: 180px;
+	padding-left: 300px;
+	width: 1024px;
+	margin-left: 0px;
+}
+
+.navigationBar {
+	a:visited color: #000000;
+	a:link color: #000000;
+	color: #000000;
+	float: left;
+	width: 197px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 1.5;
+	text-align: left;
+	letter-spacing: 1px;
+	border-right: thin solid #000000;
+	padding-top: 0px;
+	z-index: 40;
+	visibility: visible;
+	overflow-y: visible;
+	overflow-x: visible;
+	clear: right;
+	margin-top: 30px;
+	padding-left: 15px;
+	list-style-image: none;
+	list-style-type: none;
+	text-decoration: none;
+	height: 300px;
+	margin-left: 10px;
+	position: fixed;
+}
+
+/* unvisited link */
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: hsla(359,87%,46%,1.00);
+    text-decoration: none;
+    background-color: hsla(359,87%,46%,1.00);
+}
+
+.navigationBarullia {
+	color: #000000;
+	a:visited color: #000000;
+	a:link color: #000000;
+	list-style-image: none;
+	list-style-type: none;
+	text-decoration: none;
+	display: block;
+	width: 190px;
+	height: 36px;
+	line-height: 36px;
+	padding: 0px;
+	margin-left: 0px;
+	position: fixed;
+}
+
+.dropDownHover:hover {
+	background-color: hsla(359,87%,46%,1.00);
+	color: #000000;
+	a:visited color: #000000;
+	list-style-image: none;
+	list-style-type: none;
+	text-decoration: none;
+	margin-left: 0px;
+}
+
+.dropDownHover nav a:hover, .dropDownHover nav a:active,
+.dropDownHover nav.active a:link, dropDownHover nav.active a:visited {
+	background-color: hsla(359,87%,46%,1.00);
+	color: #000000; 
+	a:visited color: #000000;
+}
+
+/*Hide menu -- Show menu*/
+.sub-menu {
+	display: none;
+	color: #000000;
+	a:visited color: #000000;
+	list-style-image: none;
+	list-style-type: none;
+	text-decoration: none;
+	position: absolute;
+	top: 30px;
+	padding: opx;
+}
+
+.sub-menu:hover {
+	display: block;
+	list-style-image: none;
+	list-style-type: none;
+	text-decoration: none;
+	float: left;
+	margin-left: 100px;
+	padding-left: 30px;
+	left: 50px;
+	color: #000000;
+	a:visited color: #000000;
+	a:link color: #000000;
+}
+	
+.image {
+	width: 970px;
+	margin-top: -150px;
+	height: 400px;
+	display: list-item;
+	float: left;
+}
+
+.label {
+	float: left;
+	margin-top: -10px;
+	margin-left: -970px;
+	background-color: #FFFFFF;
+	color: #000000;
+	height: 50px;
+	text-align: left;
+	padding-top: 15px;
+	width: 350px;
+	font-size: 30px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	text-indent: 12px;
+	opacity: 0.65;
+}
+.content1 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 20px;
+	border-left-color: hsla(0,89%,39%,1.00);
+	border-right-color: hsla(0,89%,39%,1.00);
+	border-left-style: solid;
+	border-right-style: solid;
+	border-left-width: thin;
+	border-right-width: thin;
+	border-radius: 10px;
+	width: 250px;
+	margin-left: -970px;
+	margin-top: 294px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 514px;
+}
+
+.content2 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 20px;
+	border-left-color: hsla(0,89%,39%,1.00);
+	border-right-color: hsla(0,89%,39%,1.00);
+	border-left-style: solid;
+	border-right-style: solid;
+	border-left-width: thin;
+	border-right-width: thin;
+	border-radius: 10px;
+	float: left;
+	margin-left: -640px;
+	margin-top: 340px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 268px;
+	height: 428px;
+}
+
+.content3 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 20px;
+	border-left-color: hsla(0,89%,39%,1.00);
+	border-right-color: hsla(0,89%,39%,1.00);
+	border-left-style: solid;
+	border-right-style: solid;
+	border-left-width: thin;
+	border-right-width: thin;
+	border-radius: 10px;
+	width: 250px;
+	margin-left: 40px;
+	margin-top: 44px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	height: 523px;
+}
+
+.copyright {
+	border-bottom: thin solid hsla(0,0%,100%,1.00);
+	float: left;
+	background-color: hsla(359,99%,47%,1.00);
+}
+
+.homeFooter {
+	color: #000000;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	margin-top: 938px;
+	background-color: #A9A9A9;
+	height: 240px;
+	text-align: left;
+	text-indent: 10px;
+	line-height: 1;
+	padding-top: 15px;
+	font-size: 12px;
+	width: 970px;
+}
+
+/*Department*/
+
+.titlebar {
+	width: auto;
+	color: #FFFFFF;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 30px;
+	margin-top: 55px;
+	float: right;
+	margin-right: 50px;
+}
+
+.content4 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 20px;
+	border-left-color: hsla(0,89%,39%,1.00);
+	border-right-color: hsla(0,89%,39%,1.00);
+	border-left-style: solid;
+	border-right-style: solid;
+	border-left-width: thin;
+	border-right-width: thin;
+	border-radius: 10px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 935px;
+	margin-top: -150px;
+}
+
+.emmaConway {
+	float: right;
+	margin-top: 30px;
+}
+
+.content5 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 20px;
+	border-left-color: hsla(0,89%,39%,1.00);
+	border-right-color: hsla(0,89%,39%,1.00);
+	border-left-style: solid;
+	border-right-style: solid;
+	border-left-width: thin;
+	border-right-width: thin;
+	border-radius: 10px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 935px;
+	margin-top: 45px;
+}
+
+.speechMarks {
+	color: #000000;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 22px;
+	text-align: left;
+	text-decoration: none;
+	text-indent: 0px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+.creativeEdge {
+	margin-left: 135px;
+	float: left;
+}
+
+.playButton {
+	float: left;
+	margin-left: -350px;
+	margin-top: 120px;
+}
+
+.departmentFooter {
+	color: #000000;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	margin-top: 1430px;
+	background-color: #A9A9A9;
+	height: 240px;
+	text-align: left;
+	text-indent: 10px;
+	line-height: 1;
+	padding-top: 15px;
+	font-size: 12px;
+	width: 970px;
+}
+
+/*Academic Activities*/
+.content6 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 20px;
+	border-left-color: hsla(0,89%,39%,1.00);
+	border-left-style: solid;
+	border-left-width: thin;
+	border-radius: 10px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 470px;
+	height: 428px;
+	margin-top: -150px;
+}
+
+.content7 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 20px;
+	border-right-color: hsla(0,89%,39%,1.00);
+	border-right-style: solid;
+	border-right-width: thin;
+	border-radius: 10px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 420px;
+	height: 428px;
+	margin-top: -150px;
+}
+
+.content8 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 20px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	float: left;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 925px;
+	margin-top: -150px;
+	height: 120px;
+	padding-left: 20px;
+}
+
+.content9 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 20px;
+	border-left-color: hsla(0,89%,39%,1.00);
+	border-left-style: solid;
+	border-left-width: thin;
+	border-radius: 10px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 410px;
+	height: 428px;
+	border-right: thin solid hsla(0,90%,39%,1.00);
+	margin-top: 60px;
+	margin-left: 0px;
+}
+
+.content10 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 20px;
+	border-left-color: hsla(0,89%,39%,1.00);
+	border-left-style: solid;
+	border-left-width: thin;
+	border-radius: 10px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 420px;
+	height: 428px;
+	border-right: thin solid hsla(0,90%,39%,1.00);
+	margin-top: -460px;
+	margin-left: 510px;
+}
+
+.table {
+	width: 400px;
+	height: auto;
+	margin-top: 30px;
+	float: left;
+	padding-left: 20px;
+	border: thin solid hsla(0,0%,1%,1.00);
+	background-color: hsla(0,0%,66%,1.00);
+	color: #000000;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin-left: 10px;
+}
+
+.tableBorder {
+	border-right: Thin solid hsla(0,0%,30%,1.00);
+}
+
+.academicFooter {
+	color: #000000;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	margin-top: 938px;
+	background-color: #A9A9A9;
+	height: 240px;
+	text-align: left;
+	text-indent: 10px;
+	line-height: 1;
+	padding-top: 15px;
+	font-size: 12px;
+	width: 970px;
+}
+
+/*Student Life*/
+.imageNightOut {
+	width: 481px;
+	float: left;
+	height: 280px;
+	margin-top: -150px;
+}
+
+.image4Girls {
+	width: 130px;
+	margin-top: 170px;
+	float: left;
+	margin-left: -245px;
+	height: 105px;
+	border-left: 5px solid hsla(0,0%,80%,1.00);
+	border-right: 5px solid hsla(0,0%,87%,1.00);
+	border-bottom: 8px solid hsla(0,0%,87%,1.00);
+	border-top: 8px solid hsla(0,0%,87%,1.00);
+}
+
+.image3Friends {
+	width: 130px;
+	float: left;
+	margin-top: 170px;
+	margin-left: -375px;
+	height: 105px;
+	border-left: 5px solid hsla(0,0%,87%,1.00);
+	border-right: 5px solid hsla(0,0%,87%,1.00);
+	border-bottom: 8px solid hsla(0,0%,87%,1.00);
+	border-top: 8px solid hsla(0,0%,87%,1.00);
+}
+
+.imageLights {
+	width: 130px;
+	float: left;
+	margin-top: 170px;
+	margin-left: -505px;
+	height: 105px;
+	border-left: 8px solid hsla(0,0%,87%,1.00);
+	border-right: 5px solid hsla(0,0%,87%,1.00);
+	border-bottom: 8px solid hsla(0,0%,87%,1.00);
+	border-top: 8px solid hsla(0,0%,87%,1.00);
+}
+
+.imageGroupPhoto {
+	width: 130px;
+	float: left;
+	margin-top: 170px;
+	height: 105px;
+	margin-left: -115px;
+	border-left: 5px solid hsla(0,0%,87%,1.00);
+	border-right: 8px solid hsla(0,0%,87%,1.00);
+	border-bottom: 8px solid hsla(0,0%,87%,1.00);
+	border-top: 8px solid hsla(0,0%,87%,1.00);
+}
+
+.content11 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 20px;
+	border-left-color: hsla(0,89%,39%,1.00);
+	border-left-style: solid;
+	border-left-width: thin;
+	border-radius: 10px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 375px;
+	height: 428px;
+	border-right: thin solid hsla(0,90%,39%,1.00);
+	margin-top: -440px;
+	margin-left: 545px;
+}
+
+.content12 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 20px;
+	border-radius: 10px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	width: 927px;
+	margin-top: 66px;
+	border-bottom: thin solid hsla(0,90%,39%,1.00);
+	border-top: thin solid hsla(0,90%,39%,1.00);
+}
+
+.studentFooter {
+	color: #000000;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	background-color: #A9A9A9;
+	height: 240px;
+	text-align: left;
+	text-indent: 10px;
+	line-height: 1;
+	padding-top: 15px;
+	font-size: 12px;
+	width: 970px;
+	margin-top: 1150px;
+}
+
+/*Style Change*/
+.smallText {
+	font-size: 10px;
+}
+
+.standardText {
+	font-size: 12px;
+}
+
+.largeText {
+	font-size: 13px;
+}
+
+.contrastStyle {
+	font-size: 12px;
+}
+
+.sizes {
+	float:right;
+}
+
+/*Javascript personalisation*/
+.buttonJS {
+	color: #000000;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: 12px;
+}

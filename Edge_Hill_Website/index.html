@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<title>Edge Hill University Home Page</title>
+<link id="pagestyle" rel="stylesheet" type="text/css" href="Coursework3CSS.css">
+<script type="text/javascript">
+	function swapStyleSheet (sheet) {
+		document.getElementById('pagestyle').setAttribute('href', sheet);
+	}
+</script>
+</head>
+
+<body class="background"> <!--Beginnning of the body-->
+<div class="sizes">
+<button onclick="swapStyleSheet('SmallStyle.css')" class="smallText">A</button>
+<button onclick="swapStyleSheet('Coursework3CSS.css')" class="standardText">A</button>
+<button onclick="swapStyleSheet('LargeStyle.css')" class="largeText">A</button>
+<button onclick="swapStyleSheet('ContrastStyle.css')" class="contrastStyle">C</button>
+</div>
+
+<div class="buttonJS">
+<p>Please click the button below for a personalised version of the text!</p>
+	<button onclick="myFunction()">Enter Name Here!</button>
+	<p id="demo"></p>
+	<script>
+		function myFunction() {
+    		var person = prompt("Please enter your name for a personalised version of the text", "");
+   			if (person != null) {
+        		document.getElementById("demo").innerHTML =
+        		"Hi " + person + "! Welcome to Edge Hill University's New Website!";
+   		 	}
+		}
+	</script>
+
+<header class="header"> <!--Start of the header-->
+<a href="Home Page.html"><img class="crest" src="Images/University Crest.png" width="110" height="150"/></a>Edge Hill University
+</header><!--End of the header-->
+<div class="navigationBar"> <!--Start of the navigation bar-->
+	<h2>Undergraduate</h2>
+  	<ul class="navigationBarullia" class="a"> <!--Start of the navigation list-->
+        <li class="dropDownHover"><a href="Home Page.html">Home</a></li> <!--Home button on the navigation bar-->
+        
+        <li class="dropDownHover"><a href="The Department.html">The Department</a></li> 
+        	<ul class="sub-menu"> <!--Beginnning of The Deparment sub-menu-->
+        	<li>Department Profile</li>
+            <li>Department History</li>
+  			</ul> <!--End of The Deparment sub-menu-->
+            
+  		<li class="dropDownHover"><a href="Academic Activities.html">Academic Activities</a></li>
+        	<ul class="sub-menu"> <!--Beginnning of Academic Activities sub-menu-->
+            <li>Courses</li>
+            <li>Modules</li>
+            <li>Extra Curricular</li>
+            <li>Time Tables</li>
+            </ul> <!--End of Academic Activities sub-menu-->
+            
+        <li class="dropDownHover"><a href="Student Life.html">Student Life</a></li>
+			<ul class="sub-menu"> <!--Beginnning of Student Life sub-menu-->
+    		<li>Social & Clubs</li>
+            <li>Sport</li>
+            <li>Pastoral</li>
+            </ul> <!--End of Student Life sub-menu-->
+            
+        <li class="dropDownHover"><a href="#">About Us</a></li> <!--About us button-->
+        
+        <li class="dropDownHover"><a href="#">Contact Us</a></li> <!--Contcat us button-->
+       </ul> <!--End of the navigation list-->
+</div> <!--End of the navigation bar div-->
+
+<div class="main"> <!--Beginning of the div to set the boundaries-->
+	<img src="Images/image10.jpg" class="image"/>
+	<div class="label">University of the Year!</div> <!--Div over the image--> 
+    
+  <div class="content1"> <!--Beginnning of the div named "content1"-->
+		<img src="Images/University of the Year.png" width="250" height="130" alt=""/>
+	<p>In the 10th anual <strong>Times Higher Education</strong> (THE) Awards
+<stong>Edge Hill University</stong> has been named<stong> University of the Year</strong>.</p>
+  	<p><strong>Dr John Carter, Vice-Chancellor, Edge Hill University</strong> - "Becoming University of Year is a tremendous achievement and one that every memebrof staff, every student past and present, every govenor, every friend, and every partner has contributed to. We are delighted to recieve the recognition our peers have decided we deserve. Sometimes it's nice to know we make a difference to peoples' lives, and the hundreds of congratulatory emails in my inbox alone in the days following the fantastic award ceremony have been testimony to that. Thank you."</p>
+	</div><!--End of content1-->
+
+<div class="content2"> <!--Beginnning of the div named "content2"-->
+	<h2>Improved Courses for 2015/16</h2>
+    <ul> <!--Improved course list-->
+    	<li class="dropDownHover">Web Design & Development</li>
+        <li class="dropDownHover">Computer Science</li>
+        <li class="dropDownHover">Application Development</li>
+        <li class="dropDownHover">Games Programming</li>
+        <li class="dropDownHover">Networking, Security & Forensics</li>
+        <li class="dropDownHover">Information Technology Managment for Business (ITMB)</li>
+        <li class="dropDownHover">Software Application Development</li>
+     </ul>
+     <img src="Images/image9.JPG".JPG width="270" height="200"/>
+</div> <!--End of content2-->
+
+<div class="content3"> <!--Beginnning of the div named "content3"-->
+	<h2>Brand New Halls of Residence</h2>
+    <img src="Images/image7.jpg" width="250" height="180"/>
+    <p>This year you could be staying in one of the newly implemented halls of residence on the Edge Hill Campus. All the rooms come equiped with flatscreen compute/TV whilst all the kitchens home a 32" TV for all those social times.</p>
+    <p>You could be staying in one of our halls (Chancellors Court, Chancellors South, Founders Court and Graduates Court) from &pound;65-&pound;112 per week -  depending on your choice.</p>
+</div> <!--End of content3-->
+    
+<div class="homeFooter"> <!--Beginning of footer-->
+<p>Copyright &copy; 2015 Jacob Cleaver</p>
+<hr>
+  <p>Edge Hill University</p>
+  <p>St Helens Road</p>
+  <p>Ormskirk</p>
+  <p>Lancashire</p>
+  <p>L39 4QP</p>
+  <p>United Kingdom</p>
+  <p>+44(0)1655 575171</p>
+</div><!--End of the footer-->
+</div><!--End of the layout-->
+</body> <!--End of the body-->
+</html> <!--End of the html-->
